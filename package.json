@@ -1,0 +1,31 @@
+{
+  "name": "aula1ppi",
+  "version": "1.0.0",
+  "description": "aula ao vivo 1 - ppi",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaioAugustoSouza/aula1PPI.git"
+  },
+  "keywords": [
+    "node",
+    "http",
+    "programacao",
+    "para",
+    "internet"
+  ],
+  "author": "Caio Augusto de Souza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CaioAugustoSouza/aula1PPI/issues"
+  },
+  "homepage": "https://github.com/CaioAugustoSouza/aula1PPI#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

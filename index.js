@@ -7,7 +7,7 @@ const app = express();
 
 //Declarar à aplicação express onde está a fonte dos arquivos estáticos.
 
-app.use (express.static(path.join(process.cws(),'publico')));
+app.use (express.static(path.join(process.cwd(),'publico')));
 // app.use(express.static('./publico'));
 var listaProdutos = [];
 app.use('/cadastrarProdutos', (req, resp) => {

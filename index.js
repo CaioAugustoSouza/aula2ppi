@@ -1,5 +1,5 @@
-import express from 'express'
-import path from 'path'
+import express from 'express';
+import path from 'path';
 
 const porta = 3000;
 const host = '0.0.0.0';
@@ -8,7 +8,7 @@ const app = express();
 //Declarar à aplicação express onde está a fonte dos arquivos estáticos.
 
 app.use (express.static(path.join(process.cws(),'publico')));
-//app.use(express.static('./publico'));
+// app.use(express.static('./publico'));
 var listaProdutos = [];
 app.use('/cadastrarProdutos', (req, resp) => {
     const nome = req.query.nome;
